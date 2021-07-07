@@ -79,3 +79,9 @@
     height: 10px;
 }
 /* esercizio 6 */
+.ex-6-img{
+    transition: filter 2s ease 0s;
+}
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
