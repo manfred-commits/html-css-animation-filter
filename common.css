@@ -101,3 +101,12 @@
     border-radius: 10%;
 }
 /* esercizio 9 */
+.ex-9-img{
+    transition: filter 2s ease 0s, border-radius 4s ease 0s, transform 4s ease 0s;
+}
+.ex-9-img:hover{
+    filter: grayscale(100%);
+    border-radius: 10%;
+    transform: scale(1.5);
+}
+/* esercizio 10 */
