@@ -110,3 +110,15 @@
     transform: scale(1.5);
 }
 /* esercizio 10 */
+.ex-10-icon{
+    animation: spin 5s linear 2s infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* esercizio 11 */
