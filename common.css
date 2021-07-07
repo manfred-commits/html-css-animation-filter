@@ -53,3 +53,10 @@
     height: 300px;
 }
 /* esercizio 3 */
+.ex-3-square{
+    transition: border-radius 2s ease 0s;
+}
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+/* esercizio 4 */
