@@ -35,3 +35,21 @@
 .margin-bottom-75 {
     margin-bottom: 75px;
 }
+
+/* effects section */
+/* esercizio 1 */
+.ex-1-square{
+    transition: background-color 2s ease 0s;
+}
+.ex-1-square:hover{
+    background-color: red;
+}
+/* esercizio 2 */
+.ex-2-square{
+    transition: width 2s ease, height 2s ease;
+}
+.ex-2-square:active{
+    width: 300px;
+    height: 300px;
+}
+/* esercizio 3 */
